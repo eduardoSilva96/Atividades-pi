@@ -1,0 +1,30 @@
+.pai1{
+    background-color: #9198df; 
+    width: 500px; 
+    height: 800px;
+}
+
+.filho1{
+    background-color: #a5ffa6; 
+    height: 50%; 
+    width: 50%;
+}
+
+.texto{
+    background-color: #ffdede; 
+    color: #008f69; 
+    font-size: 30px; 
+    font-family: monospace; 
+    font-weight: 900;
+}
+.pai2{
+    width: 80%; 
+    height: 50vh; 
+    background-color:  rgb(0, 61, 135);
+}
+
+.filho2{
+    width: 75vw; 
+    height: 50%; 
+    background-color:  rgb(0, 0, 0);
+}

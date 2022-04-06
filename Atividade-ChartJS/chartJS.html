@@ -27,7 +27,7 @@
 </body>
 
 <script>
-  const labels = [
+  const labelsHorarios = [
     '12:00',
     '13:00',
     '14:00',
@@ -35,9 +35,17 @@
     '16:00',
     '17:00',
   ];
+  const labelsMeses = [
+    'Janeiro',
+    'Fevereiro',
+    'Março',
+    'Abril',
+    'Maio',
+    'Junho',   
+  ];
 
   const data1 = {
-    labels: labels,
+    labels: labelsHorarios,
     datasets: [{
       label: 'Temperatura',
       backgroundColor: 'rgb(255,99,71)',
@@ -55,7 +63,7 @@
 
 
   const data2 = {
-    labels: labels,
+    labels: labelsMeses,
     datasets: [{
       label: 'Temperatura Média',
       backgroundColor: 'rgb(255,99,71)',
